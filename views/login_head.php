@@ -18,7 +18,12 @@
                   echo 'Registration form';
                   break;
                 case 'lostpassword':
+                case 'retrievepassword':
                   echo 'Lost password';
+                  break;
+                case 'resetpass':
+                case 'rp':
+                  echo 'Reset password';
                   break;
                 default:
                   echo $action;

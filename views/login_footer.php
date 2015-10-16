@@ -8,6 +8,8 @@
   </div>
 
 
+<?php } elseif ('resetpass' == $action) { ?>
+
 <?php } else { ?>
 
     <div id="login-register-separator">Or</div>
